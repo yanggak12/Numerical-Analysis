@@ -29,3 +29,7 @@
   6x = x^2 + 5
   x = 1/6(x^2 + 5)
   => x = g(x) 꼴의 형태
+
+<img width="161" alt="스크린샷 2021-04-16 오후 5 22 13" src="https://user-images.githubusercontent.com/46489446/114994942-4accea80-9ed8-11eb-9452-f689bbd3c674.png">
+<img width="582" alt="스크린샷 2021-04-16 오후 5 22 35" src="https://user-images.githubusercontent.com/46489446/114995014-58827000-9ed8-11eb-8cee-a49d0378978f.png">
+
