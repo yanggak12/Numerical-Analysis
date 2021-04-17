@@ -50,3 +50,20 @@
 <img width="147" alt="스크린샷 2021-04-17 오후 1 58 47" src="https://user-images.githubusercontent.com/46489446/115102311-09dedf80-9f85-11eb-9294-d3fb42f0857c.png">
 <img width="605" alt="스크린샷 2021-04-17 오후 1 58 26" src="https://user-images.githubusercontent.com/46489446/115102303-fdf31d80-9f84-11eb-915a-2c6f1e087592.png">
 
+## 할선법 (Secant)
+  두 점을 잇는 직선을 할선 이라고 한다.
+  앞서 살펴본 Newton-Raphson 방법은 수렴속도는 빠르나 초기값을 정해주어야하고 미분값 계산이 필요하여 번거로운 과정이 있었다.
+  하지만 할선법은 미분 대신 두 점을 지정하고 두점을 연결하는 할선을 이용하여 x축과의 교점을 새로운 점으로 지정하여 반복하여 근에 접근하는 방법이다.
+  흔히 알고 있는 직선 방정식을 활용하여 점화식을 구한다. 
+  직선의 방정식 : y-y1 = m(x-x1) ( => 기울기 m : y1-y0/x1-x0)
+  위 식을  f(x)-f(x1) = (f(x1)-f(x0))/(x1-x0) * (x-x1) 꼴로 나타내어 점화식을 구하면
+  x2 = (x1-f(x1)) * (x1-x0) / (f(x1)-f(x0)) 로 정의할 수 있다.
+
+   - 할선법은 두개의 점으로 과정을 시작하며 방정식에 대한 미분을 요구하지 않는다.
+   - Newton-Raphson보다 수렴속도 느림
+   - 이분법보다 함수 계산량 많음
+
+<img width="134" alt="스크린샷 2021-04-17 오후 2 01 07" src="https://user-images.githubusercontent.com/46489446/115102363-5d512d80-9f85-11eb-83b8-3e41ecb02e6a.png">
+<img width="603" alt="스크린샷 2021-04-17 오후 2 01 28" src="https://user-images.githubusercontent.com/46489446/115102377-69d58600-9f85-11eb-971d-c6bdb48fb656.png">
+
+
