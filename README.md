@@ -1,8 +1,8 @@
 # Numerical-Analysis
 
-수치해석학을 파이썬으로 분석하기
+# 근 구하기 알고리즘
 
-이분법(dichotomy)
+## 이분법(dichotomy)
   1) 주어진 구간 a<x<b 에서 중간점 c를 구한다. (c = (a+b)/2)
   2) 중간점의 함수값을 f(c)라고 하자.
   3) f(c)의 부호를 f(a) 또는 f(b)와 비교한다.
@@ -14,7 +14,7 @@
 <img width="139" alt="스크린샷 2021-04-16 오후 5 19 37" src="https://user-images.githubusercontent.com/46489446/114994628-ed389e00-9ed7-11eb-8c0c-d7aec3d80c39.png">
 <img width="606" alt="스크린샷 2021-04-16 오후 5 19 58" src="https://user-images.githubusercontent.com/46489446/114994667-f9bcf680-9ed7-11eb-9c16-0ee74f7ffb40.png">
 
-고정점 반복법(fixed point iteration)
+## 고정점 반복법(fixed point iteration)
 
   연속함수 g(x)에 대해서 g(x) = x 를 만족하는 해를 고정점(fixed point)라고 할때
   1. f(x) = 0의 해 A를 구하는 문제
