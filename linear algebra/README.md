@@ -56,3 +56,5 @@ Gauss-Seidel 방식은 좌변에 (D+L)*x 를 두고 우변에 b-U*x 를 두어 �
 
 <img width="250" alt="스크린샷 2021-05-09 오후 5 05 24" src="https://user-images.githubusercontent.com/46489446/117564781-c04b6580-b0e8-11eb-8082-152a84b36995.png">
 <img width="629" alt="스크린샷 2021-05-09 오후 5 05 03" src="https://user-images.githubusercontent.com/46489446/117564772-b45fa380-b0e8-11eb-9b88-c3853a1003fb.png">
+
+위 그래프를 Jacobi와 비교해도 훨씬 빠른 회차에서 근사해에 근접하는 것을 알 수 있다.
