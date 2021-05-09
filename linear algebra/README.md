@@ -46,3 +46,13 @@
 
 <img width="330" alt="스크린샷 2021-04-18 오후 2 58 37" src="https://user-images.githubusercontent.com/46489446/115136170-f8670780-a058-11eb-811f-d72cfbaaa50c.png">
 <img width="600" alt="스크린샷 2021-04-18 오후 2 57 50" src="https://user-images.githubusercontent.com/46489446/115136175-ff8e1580-a058-11eb-93c4-fd267e6fd258.png">
+
+## 4. Gauss-Seidel
+
+Ax = b 꼴의 방정식에서 A를 D+U+L로 쪼개어 계산하는 방식에는 Jacobi와 Gauss-Seidel 방법 2가지가 있다.
+Gauss-Seidel 방식은 좌변에 (D+L)*x 를 두고 우변에 b-U*x 를 두어 계산하는 방식이다.
+즉, (D+L)x[k+1] = b-x[k] 로 정리할 수 있고 점화식도 뽑아낼 수 있다. 전체적으로 Jacobi와 비슷하나 x2와 x3 전개 과정에 즉 D와 L이 연관된 x 는 x[k+1]차 항인 것을 알 수 있다.
+![스크린샷 2021-05-09 오후 5 04 29](https://user-images.githubusercontent.com/46489446/117564763-a1e56a00-b0e8-11eb-8eb8-372ac5ba0538.png)
+
+<img width="250" alt="스크린샷 2021-05-09 오후 5 05 24" src="https://user-images.githubusercontent.com/46489446/117564781-c04b6580-b0e8-11eb-8082-152a84b36995.png">
+<img width="629" alt="스크린샷 2021-05-09 오후 5 05 03" src="https://user-images.githubusercontent.com/46489446/117564772-b45fa380-b0e8-11eb-9b88-c3853a1003fb.png">
