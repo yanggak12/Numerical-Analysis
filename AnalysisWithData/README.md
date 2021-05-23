@@ -12,7 +12,7 @@
   - 회귀법 중 가장 널리 쓰임
   - 관측된 데이터와 회귀 직선(곡선)의 오차를 최소화 하도록 회귀 직선(곡선)의 형태를 정함
   - 회귀 직선 구하기
-![스크린샷 2021-05-23 오후 2 23 53](https://user-images.githubusercontent.com/46489446/119249325-9870fd00-bbd2-11eb-9f72-4b283a399e82.png)
+  - <img src="https://user-images.githubusercontent.com/46489446/119249325-9870fd00-bbd2-11eb-9f72-4b283a399e82.png" alt="drawing" width="200"/>
   (1) 가장 근접한 직선(적합 방정식) 3개 그어보기 
     - f(x) = 2x-1
     - f(x) = x+0.5
