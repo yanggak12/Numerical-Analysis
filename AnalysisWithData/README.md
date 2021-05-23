@@ -30,5 +30,5 @@
   - 위의 수식에서 오차를 최소화 시키는 미지수(계수) a와 b를 찾기 위해 a 또는 b 에 대한 편미분을 통해 상대 변수의 영향력을 삭제해준다.
   - 또한 제곱을 없애 직선식으로 표현 가능하다.
   - 하나의 변수에 대한 해에 근접한 극한 값을 구한다.
-    <img width="627" alt="스크린샷 2021-05-23 오후 3 29 05" src="https://user-images.githubusercontent.com/46489446/119250530-a0816a80-bbdb-11eb-94a2-dd33963682c9.png">
+<img width="627" alt="스크린샷 2021-05-23 오후 3 29 05" src="https://user-images.githubusercontent.com/46489446/119250530-a0816a80-bbdb-11eb-94a2-dd33963682c9.png">
 
