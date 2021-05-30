@@ -36,10 +36,8 @@
 
   - 회귀 직선을 임의로 f(x) = ax+b로 둔다
   - 회귀 직선을 주어진 점들과의 오차가 가장 작은 직선으로 하기 위해 a와 b값을 구하기 위한 식을 세운다.
-  - ∑_i^n▒〖(y_i 〗-(ax_i+b))□(2/)=0![image](https://user-images.githubusercontent.com/46489446/120092639-6837da00-c14f-11eb-8a46-e2d2d737cf6b.png)
-  - a=  (∑_(i=1)^n▒〖(y_i-¯y)(x_i-¯x  )〗)/(∑_(i=1)^n▒〖(x_i-¯x)〗  2/)![image](https://user-images.githubusercontent.com/46489446/120092642-72f26f00-c14f-11eb-958f-e6024d4373c5.png)
-  - b= ¯y-a¯x![image](https://user-images.githubusercontent.com/46489446/120092646-7ab21380-c14f-11eb-8193-faee12ffc3a3.png)
-  
+  - <img width="247" alt="스크린샷 2021-05-30 오후 2 06 50" src="https://user-images.githubusercontent.com/46489446/120092762-49861300-c150-11eb-8a3a-ecd96cb86fd6.png">
+  - <img width="378" alt="스크린샷 2021-05-30 오후 2 07 15" src="https://user-images.githubusercontent.com/46489446/120092766-59055c00-c150-11eb-9208-2d27dc0d3c51.png">
   - 주어진 점들을 통해서 y=ax+b를 구한다.
 <img width="500" alt="1" src="https://user-images.githubusercontent.com/46489446/120092671-bf3daf00-c14f-11eb-8b60-24112d831001.png">
 
