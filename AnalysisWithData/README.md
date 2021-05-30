@@ -8,7 +8,7 @@
 - 관측된 데이터가 있을때 독립변수와 종속변수가 존재한다면 그 둘 사이의 관계를 가장 적절하게 표현할 수 있는 '직선' 또는 '곡선'을 나타내는 표현법
 
 
-### 1) 최소 자승법
+### 1) 최소 자승법(Least square method)
   - 회귀법 중 가장 널리 쓰임
   - 관측된 데이터와 회귀 직선(곡선)의 오차를 최소화 하도록 회귀 직선(곡선)의 형태를 정함
   - 회귀 직선 구하기
@@ -31,4 +31,16 @@
   - 또한 제곱을 없애 직선식으로 표현 가능하다.
   - 하나의 변수에 대한 해에 근접한 극한 값을 구한다.
 <img width="500" alt="스크린샷 2021-05-23 오후 3 29 05" src="https://user-images.githubusercontent.com/46489446/119250530-a0816a80-bbdb-11eb-94a2-dd33963682c9.png">
+
+### 2) 최소 자승법의 일반화
+
+  - 회귀 직선을 임의로 f(x) = ax+b로 둔다
+  - 회귀 직선을 주어진 점들과의 오차가 가장 작은 직선으로 하기 위해 a와 b값을 구하기 위한 식을 세운다.
+  - ∑_i^n▒〖(y_i 〗-(ax_i+b))□(2/)=0![image](https://user-images.githubusercontent.com/46489446/120092639-6837da00-c14f-11eb-8a46-e2d2d737cf6b.png)
+  - a=  (∑_(i=1)^n▒〖(y_i-¯y)(x_i-¯x  )〗)/(∑_(i=1)^n▒〖(x_i-¯x)〗  2/)![image](https://user-images.githubusercontent.com/46489446/120092642-72f26f00-c14f-11eb-958f-e6024d4373c5.png)
+  - b= ¯y-a¯x![image](https://user-images.githubusercontent.com/46489446/120092646-7ab21380-c14f-11eb-8193-faee12ffc3a3.png)
+  
+  - 주어진 점들을 통해서 y=ax+b를 구한다.
+<img width="500" alt="1" src="https://user-images.githubusercontent.com/46489446/120092671-bf3daf00-c14f-11eb-8b60-24112d831001.png">
+
 
