@@ -38,6 +38,7 @@
   - 회귀 직선을 주어진 점들과의 오차가 가장 작은 직선으로 하기 위해 a와 b값을 구하기 위한 식을 세운다.
   - <img width="247" alt="스크린샷 2021-05-30 오후 2 06 50" src="https://user-images.githubusercontent.com/46489446/120092762-49861300-c150-11eb-8a3a-ecd96cb86fd6.png">
   - <img width="378" alt="스크린샷 2021-05-30 오후 2 07 15" src="https://user-images.githubusercontent.com/46489446/120092766-59055c00-c150-11eb-9208-2d27dc0d3c51.png">
+  - 위 식 2개 출처 : [네이버 캐스트](https://terms.naver.com/entry.naver?docId=3569970&cid=58944&categoryId=58970)
   - 주어진 점들을 통해서 y=ax+b를 구한다.
 <img width="500" alt="1" src="https://user-images.githubusercontent.com/46489446/120092671-bf3daf00-c14f-11eb-8b60-24112d831001.png">
 
