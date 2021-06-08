@@ -42,4 +42,14 @@
   - 주어진 점들을 통해서 y=ax+b를 구한다.
 <img width="500" alt="1" src="https://user-images.githubusercontent.com/46489446/120092671-bf3daf00-c14f-11eb-8b60-24112d831001.png">
 
+### 3) 다항식 회귀법
+  - 데이터의 성향이 선형적이지 않은 경우 사용되는 비선형 회귀법 중 하나
+    * 다항식 함수
+    * 지수/로그함수
+    * 삼각 함수
+  - 2차 방정식 ax^2+bx+c가 있을때 전체 오차는 y-ax^2+bx+c이고 마찬가지로 오차를 제곱하여 계산한다.
+  - a,b,c에 대해 각각 편미분 한 다음 equal 0 을 계산하면 아래와 같은 식을 도출해낼 수 있다.
+<img width="500" alt="스크린샷 2021-06-08 오후 6 30 34" src="https://user-images.githubusercontent.com/46489446/121161100-9f149b00-c887-11eb-9268-cbf59d0f3a65.png">
+  - 각각 시그마 값을 계산해서 연립방정식을 계산하여 다항식을 뽑아낸다.
+<img width="500" alt="스크린샷 2021-06-08 오후 6 33 52" src="https://user-images.githubusercontent.com/46489446/121161565-15190200-c888-11eb-8cbc-0c0ad5ac3dba.png">
 
