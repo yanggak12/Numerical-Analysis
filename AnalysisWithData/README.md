@@ -52,4 +52,6 @@
 <img width="500" alt="스크린샷 2021-06-08 오후 6 30 34" src="https://user-images.githubusercontent.com/46489446/121161100-9f149b00-c887-11eb-9268-cbf59d0f3a65.png">
   - 각각 시그마 값을 계산해서 연립방정식을 계산하여 다항식을 뽑아낸다.
 <img width="500" alt="스크린샷 2021-06-08 오후 6 33 52" src="https://user-images.githubusercontent.com/46489446/121161565-15190200-c888-11eb-8cbc-0c0ad5ac3dba.png">
+  - 지수 함수의 경우 양변에 자연 로그를 씌운 후 lnf(x) 를 Y로 치환하고 lnb를 B로 치환하여 계산한 그래프는 아래와 같다.
+<img width="500" alt="스크린샷 2021-06-08 오후 10 18 58" src="https://user-images.githubusercontent.com/46489446/121192077-874d0f00-c8a7-11eb-99fd-b7399efc91a2.png">
 
